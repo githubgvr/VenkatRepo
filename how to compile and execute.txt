@@ -1,0 +1,18 @@
+Installation on Windows
+In order to run Objective-C program on windows, we need to install MinGW and GNUStep Core. Both are available at http://www.gnu.org/software/gnustep/windows/installer.html.
+
+First, we need to install the MSYS/MinGW System package. Then, we need to install the GNUstep Core package. Both of which provide a windows installer, which is self-explanatory.
+
+Then to use Objective-C and GNUstep by selecting Start -> All Programs -> GNUstep -> Shell
+
+Switch to the folder containing helloWorld.m
+
+We can compile the program by using:
+
+$ gcc `gnustep-config --objc-flags` -L /GNUstep/System/Library/Libraries hello.m -o hello -lgnustep-base -lobjc
+We can run the program by using:
+
+./hello.exe
+We get the following output:
+
+2013-09-07 10:48:39.772 tutorialsPoint[1200] hello world
