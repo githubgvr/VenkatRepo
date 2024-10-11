@@ -1,1 +1,1 @@
-This is Read me file for https://venkatcomapany.atlassian.net/browse/PILOT-7
+This is Read me file for PILOT-7
